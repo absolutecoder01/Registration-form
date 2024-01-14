@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl -PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>formularz rejestracyjny</title>
+</head>
+<body>
+    <h1>formularz rejestracyjny</h1>
+
+    <form action="" method="post">
+        <p><div class="gwiazdka">(*) </div><b>- pola obowiązkowe</b></p>
+        <div class="wszystko">
+            <!-- Nazwisko -->
+            <h3 class="nazwisko" style="display: inline;">Nazwisko:<sup>*</sup></h3> <input type="text" style="display: inline;" name="nazwisko" id="nazwisko" placeholder="nazwisko" size="75">
+            <br>
+            <!-- Imie -->
+            <h3 class="imie" style="display: inline;">Imię:<sup>*</sup></h3> <input type="text" style="display: inline;" name="imie" id="imie" placeholder="imię" size="75">
+            <!-- kod pocztowy -->
+            <h3 class="pocztowy_kod">kod pocztowy: <br><input type="text" placeholder="00-000" size="75" class="kod_pocztowy"></h3>
+            <!-- Adres -->
+            <h3 class="adres">adres:<sup>*</sup></h3>
+            <!-- Miasto -->
+            <h3 class="pocztowy_kod">miasto: <br><input type="text" placeholder="00-000" size="75" class="miasto"></h3>
+            <hr>
+            <!-- Płeć -->
+            <h3 style="display: inline;">Wybierz płeć:</h3> <input type="radio" name="plec" id="kobieta">Kobieta<input type="radio" name="plec" id="mezczyzna">Mężczyzna 
+            <hr>
+            <!-- Przedział wiekowy -->
+            <h3 style="display: inline;">Podaj przedział wiekowy: <input type="text" style="display: inline;" name="imie" id="imie" placeholder="16-24,25-39,40-60, powyżej 60" size="75"></h3>
+            
+            <hr>
+            <!-- Mail -->
+            <h3 class="imie" style="display: inline;">Podaj adres e-mail:<sup>*</sup></h3> <input type="text" style="display: inline;" name="imie" id="imie" placeholder="a@serwer.pl" size="75">
+            <hr>
+            <!-- Wykształcenie -->
+            <h3>Wykształcenie:</h3> 
+            <input type="radio" name="wyksztalcenie" id="podstawowe">podstawowe
+            <br>
+             <input type="radio" name="wyksztalcenie" id="srednie">średnie 
+             <br>
+             <input type="radio" name="wyksztalcenie" id="wyzsze">wyższe
+            <hr>
+            <!-- Języki -->
+            <h3>Wybierz języki:</h3>
+            
+            <select size="6" multiple>
+                <option value="angielski">Angielski</option>
+                <option value="niemiecki">Niemiecki</option>
+                <option value="francuski">Francuski</option>
+                <option value="włoski">Włoski</option>
+                <option value="hiszpański">Hiszpański</option>
+                <option value="rosyjski">Rosyjski</option>
+            </select>
+            <p>Uwaga: <i> Ctrl </i>pozwala zaznaczyć kilka języków</p>
+            <hr>
+            <!-- Zainteresowania -->
+            <h3>Zainteresowania:</h3>
+            <input type="checkbox" name="motoryzacja" id="motoryzacja">motoryzacja
+            <br>
+            <input type="checkbox" name="sport" id="sport">sport
+            <br>
+            <input type="checkbox" name="muzyka" id="muzyka">muzyka
+            <br>
+            <input type="checkbox" name="taniec" id="taniec">taniec
+            <br>
+            <input type="checkbox" name="gry" id="gry">gry
+            <br>
+            <input type="checkbox" name="inne" id="inne">inne (podaj jakie): <input type="text" style="display: inline;">            
+            <hr>
+            <!-- Uwagi -->
+            <p>Wpisz swoje uwagi:</p>
+            <textarea name="uwagi" id="uwagi" cols="30" rows="10"></textarea>
+            <hr>
+            <!-- Przetwarzanie danych osobowych -->
+            <input type="checkbox" name="przetwarzanie_danych_osobowych" id="przetwarzanie_danych_osobowych">zgadzam się na przetwarzanie moich danych osobowych
+            <hr>
+            <!-- Wyślij i wyczyść  -->
+            <button value="wyślij formularz" type="submit">wyślij formularz</button>
+            <button value="wyczyść pola" type="reset">wyczyść formularz</button>
+            <hr>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+h1 {
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 ;
+    margin-bottom: 80px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gwiazdka {
+    color: red;
+    display: inline;
+    padding-left: 100px;
+}
+.wszystko {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+h3 {
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding: 0;
+}
+sup {
+    color: red;
+}
+.nazwisko {
+    padding-right: 15px;
+}
+.imie {
+    padding-right: 55px;
+}
+#nazwisko {
+    padding: 6px;
+    color: gray;
+}
+#imie {
+    margin-top: 5px;
+    padding: 6px;
+    color: gray;
+}
+.kod_pocztowy {
+    padding: 6px;
+    color: gray;
+
+}
+.pocztowy_kod {
+    margin: 0px;
+    margin-left: 110px;
+    padding-bottom: 4px;
+    padding-top: 10px;
+}
+.adres{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+button {
+    background-color: gainsboro;
+    padding: 10px;
+    border: 0px solid transparent;
+    font-size: 13px;
+}
